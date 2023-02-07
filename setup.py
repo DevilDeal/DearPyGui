@@ -190,7 +190,7 @@ def setup_package():
                 'Topic :: Software Development :: User Interfaces',
                 'Topic :: Software Development :: Libraries :: Python Modules',
             ],
-        packages=['dearpygui2'],
+        packages=['dearpygui'],
         package_dir = {'': 'output'},
         package_data={},
         distclass=BinaryDistribution,
