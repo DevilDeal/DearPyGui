@@ -160,7 +160,7 @@ def setup_package():
             shutil.copy(src_path + "/thirdparty/Microsoft/vcruntime140_1.dll", src_path + "/output/dearpygui")
 
     metadata = dict(
-        name='dearpygui2',                                      # Required
+        name='dearpygui',                                      # Required
         version=version_number(),                              # Required
         author="Jonathan Hoffstadt and Preston Cothren",       # Optional
         author_email="jonathanhoffstadt@yahoo.com",            # Optional
