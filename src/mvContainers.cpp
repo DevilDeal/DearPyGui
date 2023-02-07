@@ -1646,7 +1646,7 @@ DearPyGui::draw_window(ImDrawList* drawlist, mvAppItem& item, mvWindowAppItemCon
         item.state.hovered = false;
         item.state.focused = false;
         item.state.toggledOpen = false;
-        item.state.visible = false;
+        item.state.visible = true;
 
         if (item.config.alias.empty())
             mvAddCallback(config.on_close, item.uuid, nullptr, item.config.user_data);
